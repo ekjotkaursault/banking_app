@@ -1,0 +1,31 @@
+{
+  "bank": {
+    "name": "Study Bank"
+  },
+  "accounts": [
+    {
+      "id": "CHK-001",
+      "type": "Checking",
+      "holder": "Ekjot Kaur",
+      "number": "450612******3456",
+      "balance": 1520.55,
+      "allowTransactions": true,
+      "transactions": [
+        { "date": "2025-11-01", "desc": "Grocery - FreshCo", "amount": -82.30 },
+        { "date": "2025-11-03", "desc": "Salary", "amount": 1200.00 },
+        { "date": "2025-11-05", "desc": "Tim Hortons", "amount": -6.50 }
+      ]
+    },
+    {
+      "id": "SAV-002",
+      "type": "Savings",
+      "holder": "Ekjot Kaur",
+      "number": "2233********9876",
+      "balance": 3500.00,
+      "allowTransactions": false,
+      "transactions": [
+        { "date": "2025-10-20", "desc": "Interest Credit", "amount": 3.25 }
+      ]
+    }
+  ]
+}

@@ -58,42 +58,7 @@ assets/
 ┗ accounts.json → local data for accounts and transactions
 pubspec.yaml → Flutter dependencies and asset configuration
 
-
----
-
-##  JSON Data Example
-```json
-{
-  "bank": {
-    "name": "Study Bank"
-  },
-  "accounts": [
-    {
-      "id": "CHK-001",
-      "type": "Checking",
-      "holder": "Ekjot Kaur",
-      "number": "450612******3456",
-      "balance": 1520.55,
-      "transactions": [
-        { "date": "2025-11-01", "desc": "Grocery - FreshCo", "amount": -82.30 },
-        { "date": "2025-11-03", "desc": "Salary", "amount": 1200.00 },
-        { "date": "2025-11-05", "desc": "Tim Hortons", "amount": -6.50 }
-      ]
-    }
-  ]
-}
-
-
-| Feature                          | Description                                          |
-| -------------------------------- | ---------------------------------------------------- |
-|  **Modern UI**                 | Gradient header, rounded corners, and minimal layout |
-|  **Dynamic Navigation**        | Three-screen flow with smooth transitions            |
-|  **Live Date Display**         | Automatically shows today’s date                     |
-|  **Local JSON Integration**    | Reads structured account and transaction data        |
-|  **Transaction Visualization** | Color-coded indicators for deposits & withdrawals    |
-|  **Responsive Design**         | Works across various screen sizes (mobile-first)     |
-
----
+-----------------------------------------
 ### How to Run
 
 Clone this repository:
@@ -129,4 +94,5 @@ Displays user’s accounts (Checking, Savings)
 Transactions:
 
 Lists all transactions for selected account with amount formatting
+
 

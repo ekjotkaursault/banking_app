@@ -5,6 +5,8 @@
 A modern, mobile-first **Banking Application** built entirely with **Flutter** and **local JSON data integration**.
 This app was developed as part of **Test 2 – Part B** for my Mobile Development course, demonstrating clean UI/UX design, structured navigation, and dynamic data rendering.
 
+live demo link: https://ekjotkaursault.github.io/banking_app/
+
 ---
 
 ##  Overview
@@ -151,3 +153,4 @@ This Flutter banking app demonstrates my ability to combine **front-end design**
 It reflects my growing expertise in mobile development and clean, structured Flutter practices.
 
 ---
+
